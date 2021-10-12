@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+h1{
+    margin: 30px;
+    text-shadow: 5px 5px white;
+    font-size: 6rem;
+    color: rgb(218, 84, 142);
+}
+
+p{
+    font-size: 2rem;
+    text-shadow: 1px 1px white;
+    color: rgb(181, 117, 240);
+    margin-bottom: 50px;
+}
+
+.clickMe
+{
+    padding: 1rem 2rem;
+    color: rgb(196, 78, 78);
+    background-color: rgb(207, 238, 132);
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+img{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
